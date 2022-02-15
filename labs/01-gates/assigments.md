@@ -15,7 +15,7 @@ begin
     f_nand_o <= not(b_i) or not(a_i) or not(c_i); 
     f_nor_o  <= not(b_i) and not(a_i) and not(c_i);
     f_left <= (a_i or b_i) and (a_i or c_i);
-    f_right <= a_i and (b_i or c_i);
+    f_right <= a_i or (b_i and c_i);
 end architecture dataflow;
 ```
 
