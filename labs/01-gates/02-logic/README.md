@@ -1,5 +1,5 @@
 
-## Preparation tasks (done before the lab at home)
+## Preparation tasks
 
 *Digital* or *Binary comparator* compares the digital signals A, B presented at input terminal and produce outputs depending upon the condition of those inputs.
 
