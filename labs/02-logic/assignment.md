@@ -47,11 +47,11 @@
 
 2. Text console screenshot during your simulation, including reports.
 
-   Text console success:
+   #Text console success:
    
    ![your figure](images/4bit_success.png)
    
-   Text console error:
+   #Text console error:
    
    ![your figure](images/4bit_error.png)
 
