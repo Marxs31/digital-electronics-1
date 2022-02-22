@@ -6,7 +6,7 @@
 
    Greater than:
 
-   ![K-maps](images/kmap_B greater A- Copy.png)
+   ![K-maps](images/kmap_B_greater_A.png)
 
    Less than:
 
