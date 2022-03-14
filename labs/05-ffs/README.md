@@ -14,9 +14,9 @@
    | **clk** | **d** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | `q(n+1)` has the same level as `d` |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | reset `q(n+1)` to `0`              |
-   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | set `q(n+1)` to `1` |
-   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | set `q(n+1)` to `1`|
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | reset state `q(n+1) = 0`              |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | set state `q(n+1) = 1` |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | set state `q(n+1) = 1`|
 
    **JK-type FF**
    | **clk** | **j** | **k** | **q(n)** | **q(n+1)** | **Comments** |
@@ -34,8 +34,8 @@
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
    | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 | 1 |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | Output did not change |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | toggle |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | toggle |
 
 <a name="part1"></a>
