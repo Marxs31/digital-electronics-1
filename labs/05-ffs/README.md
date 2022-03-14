@@ -23,12 +23,12 @@
    | :-: | :-: | :-: | :-: | :-: | :-- |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 0 | 0 | Output did not change |
    | ![rising](images/eq_uparrow.png) | 0 | 0 | 1 | 1 | Output did not change |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 0 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
-   | ![rising](images/eq_uparrow.png) | 1 |  |  |  |  |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 0 | 0 | reset state `q(n+1) = 0` |
+   | ![rising](images/eq_uparrow.png) | 0 | 1 | 1 | 0 | reset state `q(n+1) = 0` |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 0 | 1 | set state `q(n+1) = 1` |
+   | ![rising](images/eq_uparrow.png) | 1 | 0 | 1 | 1 | set state `q(n+1) = 1` |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 0 | 1 | toggle state |
+   | ![rising](images/eq_uparrow.png) | 1 | 1 | 1 | 0 | toggle state |
 
    **T-type FF**
    | **clk** | **t** | **q(n)** | **q(n+1)** | **Comments** |
