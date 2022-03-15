@@ -20,10 +20,14 @@ begin
     --------------------------------------------------------
     p_t_ff_rst : process(clk)
     begin
-        if rising_edge(clk) then
-
-        -- WRITE YOUR CODE HERE
-
+         if rising_edge(clk) then  -- Synchronous process
+            if (rst='1') then
+                s_q <= '0';
+            elsif (t='0') then
+                s_q <= s_q;
+            else 
+                s_q <= not s_q;
+            end if;              
         end if;
     end process p_t_ff_rst;
 
