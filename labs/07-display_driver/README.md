@@ -11,7 +11,7 @@ Due to the physiological properties of human vision, it is necessary that the ti
   ![https://lastminuteengineers.com/seven-segment-arduino-tutorial/](https://github.com/tomas-fryza/digital-electronics-1/blob/master/labs/04-segment/images/7-Segment-Display-Number-Formation-Segment-Contol.png)
 
 
-  > The figure above was created in [WaveDrom](https://wavedrom.com/) digital timing diagram online tool. The figure source code is as follows:
+  
   >
   ```javascript
   {
