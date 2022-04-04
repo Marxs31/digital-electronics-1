@@ -12,6 +12,7 @@
  
  Table 10.1. Nexys A7 Pmod pin assignments.
 | Pmod JA	Pmod JB	Pmod JC	Pmod JD	Pmod XDAC |
+| :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | JA1: C17	JB1: D14	JC1: K1	JD1: H4	JXADC1: A13 (AD3P) |
 | JA2: D18	JB2: F16	JC2: F6	JD2: H1	JXADC2: A15 (AD10P) |
 | JA3: E18	JB3: G16	JC3: J2	JD3: G1	JXADC3: B16 (AD2P) |
