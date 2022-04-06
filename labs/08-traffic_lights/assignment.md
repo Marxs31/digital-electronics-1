@@ -70,7 +70,7 @@
                         end if;   
                         
                      when SOUTH_GO =>
-                        -- Count up to c_DELAY_1SEC
+                        -- Count up to c_DELAY_4SEC
                         if (s_cnt < c_DELAY_4SEC) then
                             s_cnt <= s_cnt + 1;
                         else
@@ -80,7 +80,7 @@
                         end if; 
                         
                      when SOUTH_WAIT =>
-                        -- Count up to c_DELAY_1SEC
+                        -- Count up to c_DELAY_2SEC
                         if (s_cnt < c_DELAY_2SEC) then
                             s_cnt <= s_cnt + 1;
                         else
